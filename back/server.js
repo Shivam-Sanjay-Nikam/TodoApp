@@ -3,6 +3,7 @@ const express=require('express');
 const app=express();
 const mongoose=require('mongoose')
 require('dotenv').config();
+const cors = require('cors');
 const todoroutes=require('./routes/todos')
 const userRoutes = require('./routes/user')
 
@@ -14,7 +15,7 @@ app.use((req,res,next)=>{
 })
 app.use('/api/todolist',todoroutes);
 app.use('/api/user', userRoutes)
-
+app.use(cors());
 
 // connect to db
 mongoose.connect(process.env.MONGODB_URL)
