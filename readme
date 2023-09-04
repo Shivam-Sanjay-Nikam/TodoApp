@@ -1,0 +1,2 @@
+step 1- npm i in both front and back folders
+step 2 -npm run dev in back and npm start in front 
