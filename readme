@@ -1,2 +1,16 @@
 step 1- npm i in both front and back folders
 step 2 -npm run dev in back and npm start in front 
+
+also before doing all this 
+add the server local host site above name 
+
+like this 
+{
+  "name": "frontend",
+  "version": "0.1.0",
+
+{
+"proxy":"http://localhost:6000/"
+  "name": "frontend",
+  "version": "0.1.0",
+
