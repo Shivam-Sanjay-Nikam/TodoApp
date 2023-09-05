@@ -1,5 +1,5 @@
 {
-  "proxy": "https://back-task-k9mb.onrender.com/api/todolist/",
+  "proxy" : "http://localhost:6000",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
